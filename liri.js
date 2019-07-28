@@ -99,3 +99,14 @@ if (process.argv[2] == 'concert-this') {
 } else if (process.argv[2] == 'do-what-it-says') {
     console.log('do what it says')
 }
+
+// Function to write to log file
+
+writeToLog: (logEntry) => {
+
+    fs.appendFile('log.txt', logEntry, err => {
+        if (err) {
+            throw err
+        }
+    })
+}
