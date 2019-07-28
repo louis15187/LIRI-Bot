@@ -64,10 +64,6 @@ if (process.argv[2] == 'concert-this') {
         }
 
 
-        var table = cTable.getTable(tableArray);
-
-        console.log(table);
-
 
     });
 
