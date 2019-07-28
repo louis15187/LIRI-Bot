@@ -2,7 +2,6 @@ require("dotenv").config();
 var keys = require('./keys');
 var Spotify = require('node-spotify-api');
 //added to format table 
-var cTable = require('console.table');
 var request = require('request');
 var moment = require('moment');
 
