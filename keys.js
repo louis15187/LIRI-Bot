@@ -1,7 +1,7 @@
 // API Keys for various APIs to be used in the Liri App
 
 
-// various keys needed for APIs set as a constant
+// Key needed for APIs set as a constant
 const keys = {
 
     spotify: {
